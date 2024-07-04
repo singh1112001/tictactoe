@@ -22,8 +22,9 @@ h1 {
 
 /* General styles for the table */
 table {
-    margin: auto;
-    border-collapse: collapse;
+    align-items: center;
+    align-content: center;
+    align-self: center;
     width: 300px;
     height: 300px;
     table-layout: fixed;
