@@ -9,6 +9,7 @@ td {
     text-align: center;
     font-size: 60px;
     color: yellow;
+
 }
 table {
     margin-left: 36.5%;
@@ -18,3 +19,36 @@ h1 {
     color: white;
     margin-top: 2%;
 }
+
+/* General styles for the table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+    table-layout: fixed;
+  }
+  
+  td {
+    border: 2px solid #092b6f;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  td:hover {
+    background-color: #76c29b;
+  }
+  
+  /* Different background colors for X and O */
+  td.X {
+    color: red;
+  }
+  
+  td.O {
+    color: blue;
+  }
+  
